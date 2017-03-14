@@ -161,3 +161,75 @@ footer {
   right: 5rem;
   max-width: 100%;
 }
+
+.mobile {
+  display: none;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .info-item {
+    width: 40%;
+  }
+
+  .mobile {
+    display:block;
+    text-align: center;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
+
+  .info-item {
+    width: 95%;
+    margin-bottom: .5rem;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .new h4 {
+    font-family: Helvetica;
+    font-size: .77rem;
+    font-weight: bold;
+  }
+
+  .new h1 {
+    font-size: 1rem;
+  }
+
+  .new {
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+
+  .main {
+    height: 15rem;
+  }
+
+  .info {
+    flex-wrap:wrap;
+  }
+}
